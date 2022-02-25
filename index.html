@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-
+<div class="container">
     <div class="left-container"> 
         <div class="logo">Dashboard</div>
 
@@ -24,30 +24,32 @@
         </div>
 
         <div class="left-bottom">
-            <li id="Settings">Settings</li>
-            <li id="Support">Support</li>
-            <li id="Privacy">Privacy</li>
+            <ul>
+                <li id="Settings">Settings</li>
+                <li id="Support">Support</li>
+                <li id="Privacy">Privacy</li>
+            </ul>
         </div>
     </div> <!--left-container end tag-->
 
     <div class="header-container">
         <div class="header-top">
-            <input type="search">
+            <input type="search" placeholder="What is Obama's first Name?">
             <div class="bell-button"></div>
             <div class="profile-pic"></div>
-            <div class="user-name">Barack Obamna</div>
+            <div class="user-name">Obamna</div>
         </div>
 
         <div class="header-bottom">
-            <div class="greeting">Hi there, Barack Obamna (@mobamba)</div>
+            <div class="greeting">Hi there, Obamna (@mobamba)</div>
             <button id="New">New</button>
             <button id="Upload">Upload</button>
-            <button id="Share"></button>
+            <button id="Share">Share</button>
         </div>
     </div> <!--header-container end tag-->
 
-    <div class="content">   Your Projects
-        <div class="cards">
+    <div class="content"> 
+        <h3 id="projects">Your Projects</h3>
             <div>
                 <h3>Amazing Project</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus praesentium rerum asperiores, ab, cupiditate eligendi quod corporis veniam ut neque illum, consequatur sit voluptatem! Placeat, porro? Rem magnam cumque omnis?
@@ -84,9 +86,10 @@
                 </p>
             </div>
 
-        </div> <!--cards end tag-->
-
-        <div class="Announcements"> Announcements
+    </div>  <!--content end tag-->
+    <div class="extra">
+        <div class="Announcements"> 
+            <h3>Announcements</h3>
             <div>
                 <h2>Site Maintenance</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, blanditiis!</p>
@@ -107,7 +110,8 @@
             <h2>Trending</h2>
             
         </div>
-    </div>  <!--content end tag-->
+    </div> <!--extra end tag-->
+</div> <!--container end tag-->
 
 
     <script src="script.js"></script>
